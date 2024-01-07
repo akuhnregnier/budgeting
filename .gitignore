@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 
 data/
+splitwise/
+config/categories.yaml
+config/categories.yml

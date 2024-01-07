@@ -18,3 +18,4 @@ repos:
     args: [--autofix, --indent, '2']
   - id: pretty-format-toml
     args: [--autofix, --trailing-commas]
+    exclude: poetry.lock
