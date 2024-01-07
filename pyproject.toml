@@ -1,17 +1,18 @@
 [tool.poetry]
-name = "budget"
-version = "0.0.1"
 authors = ["Alexander Kuhn-Regnier"]
 description = "Analyse budgeting info"
+name = "budget"
+version = "0.0.1"
 
 [tool.poetry.dependencies]
-python = "^3.11.4"
-numpy = "*"
-scipy = "*"
-matplotlib = "*"
-pandas = "*"
-ipython = "*"
 ipdb = "*"
+ipython = "*"
+loguru = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+python = "^3.11.4"
+scipy = "*"
 
 [tool.ruff]
 target-version = "py311"
